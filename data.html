@@ -1,120 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Amira Ghenai</title>
-   <link rel="shortcut icon" href="assets/images/favicon.ico">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amira Ghenai - Data</title>
 
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #212529;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0d6efd;
+    }
+
+    .nav-link {
+      font-weight: 600;
+    }
+
+    .nav-link.active {
+      color: #0d6efd !important;
+      border-bottom: 2px solid #0d6efd;
+    }
+
+    .content-section {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      padding: 1rem 0;
+      background-color: #e9ecef;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+
+    a {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #0a58ca;
+    }
+  </style>
 </head>
+
 <body>
-
-<div class="container">
-		<div id="banner-wrapper">
-			<div id="banner-picture" class="five columns">
-					<img src="assets/images/profile.jpg" style="width:130px;margin-top:-10px;text-align:left;position:relative;" />
-			</div>
-
-			
-			<div id="banner-info" class="five columns" style="font-weight:bold;margin-left:80px;margin-top:-200px;float:top">
-				<p>
-				<h2><a href="./" style="float:bottom;margin-left:80px;margin-top:20px;float:top;">Amira Ghenai</a></h2>
-					<span style="font-weight:bold;margin-left:80px;margin-top:-20px;float:top">
-						Assistant Professor&nbsp;|&nbsp;<a href="mailto:aghenai@torontomu.ca" class="email">aghenai@torontomu.ca</a>
-					<br/>
-					
-						<h4>
-						<a href="https://www.ryerson.ca/tedrogersschool/" style="float:bottom;margin-left:80px;margin-top:20px;float:top;">Ted Rogers School of Management, TRSM<h4>
-					<a href="https://www.ryerson.ca/">
-						Toronto Metropolitan University
-					</a> 
-					</span >
-				</p>
-				<br>
-				<p>
-							<a
-								href="https://scholar.google.ca/citations?user=7GiUcaEAAAAJ&hl=en" style="float:bottom;margin-left:80px;margin-top:20px;float:top;font-size:70%;"><u>Google
-								Scholar</u></a>
-								|
-							<a
-								href="https://twitter.com/AmiraGhenai" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>Twitter</u></a>	
-								|
-								<a
-								href="https://www.linkedin.com/in/amiraghenai" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>linkedIn</u></a>
-								|
-								<a
-								href="https://aghenai.github.io/assets/amira-cv.pdf" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>CV</u></a>	
-								
-						</p>
-			</div>
-						<!-- 
-			 <div id="banner-logos" class="five columns">
-			<a class="twitter-timeline" href="https://twitter.com/AmiraGhenai">Tweets by AmiraGhenai</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-          <!-- </div> -->
-           
-			<!-- <div id="banner-logos" class="five columns">
-				<a href="https://cs.uwaterloo.ca/" id="logo-scs">
-					<img src="assets/images/uwaterloo.jpg" style="width:150px;margin-top:-10px;margin-left:750px;float:top; margin-top:10px" />
-				</a>
-			</div> -->
-
-			
-
-		</div>
-		
-
-<hr />
-
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-   
-      <ul class="nav nav-pills nav-stacked">
-        <li ><a href="index.html">Home</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li class="active"><a href="data.html">Data</a></li>
-        <li><a href="ta.html">Teaching Experience</a></li>
-         <li><a href="work.html">Work Experience</a></li>
-         <li><a href="honors_awards.html">Honors & Awards</a></li>
-          <li><a href="talks.html">Talks</a></li>
-         <li><a href="contact.html">Contact</a></li>
-      </ul><br>
-                               <script type="text/javascript" src="//ra.revolvermaps.com/0/0/2.js?i=0yjvm2lsxlt&amp;m=0&amp;s=130&amp;c=ff0000&amp;t=1" async="async"></script>
-
+  <header class="container py-3 d-flex flex-wrap align-items-center justify-content-between border-bottom bg-white">
+    <div class="d-flex align-items-center">
+      <img src="assets/images/profile.jpg" alt="Amira Ghenai" class="profile-img me-3" />
+      <div>
+        <h1 class="h3 mb-0">Amira Ghenai</h1>
+        <p class="mb-0 text-muted small">Assistant Professor, Ted Rogers School of Management</p>
+        <p class="mb-0 text-muted small">Toronto Metropolitan University</p>
+        <a href="mailto:aghenai@torontomu.ca" class="text-decoration-none">aghenai@torontomu.ca</a>
+      </div>
     </div>
 
-    <div class="col-sm-9">
- 
-      <div class="row">
-  
-    <p> Here, I provide the list of datasets I used in my publications so that others can reproduce or compare against the results.</p>
-								
-				<ul style="list-style-image: URL(bullet.png); list-style-position: outside; margin: 0 0 0 0px">
-				<li><i>The Positive and Negative Influence of Search Results on People’s Decisions about the Efficacy of Medical Treatments</i> paper dataset is available to be downloaded <a href="https://aghenai.github.io/user_study_pages.html"> here.</a></li>
-				<li>The medical lexicon used in the <i>Catching Zika Fever: Application of Crowdsourcing and Machine Learning for Tracking Health Misinformation on Twitter</i> paper is available to be downloaded <a href="https://aghenai.github.io/medical_lexicon.html"> here.</a></li>
-				<li>The list of topics along with the keyword queries for the dataset used in the <i>Fake Cures: User-centric Modeling of Health Misinformation in Social Media</i> is available to be downloaded <a href="https://tinyurl.com/y78mkg6s"> here.</a></li>
-				</ul>
-						
-              <br>
-              <br>
-                                		<!-- <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=mo4b&d=UsjKxXx7rq0EtEIgCGda_X-RcCiHepUnqlT1W8DPZJE"></script>
-               -->
-            </div>
-          </div>
-          
-        </div>
-        
-        
-      </div>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+        <li class="nav-item"><a href="data.html" class="nav-link active">Data</a></li>
+        <li class="nav-item"><a href="ta.html" class="nav-link">Teaching</a></li>
+        <li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
+        <li class="nav-item"><a href="honors_awards.html" class="nav-link">Honors & Awards</a></li>
+        <li class="nav-item"><a href="talks.html" class="nav-link">Talks</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main class="container my-4">
+    <section class="content-section">
+      <h2>Datasets Used in Publications</h2>
+      <p>
+        Here, I provide the list of datasets I used in my publications so that others can reproduce or compare against the
+        results.
+      </p>
+      <ul>
+        <li>
+          <i>The Positive and Negative Influence of Search Results on People’s Decisions about the Efficacy of Medical
+            Treatments</i> paper dataset is available to be downloaded
+          <a href="https://aghenai.github.io/user_study_pages.html" target="_blank" rel="noopener noreferrer">here</a>.
+        </li>
+        <li>
+          The medical lexicon used in the
+          <i>Catching Zika Fever: Application of Crowdsourcing and Machine Learning for Tracking Health Misinformation on
+            Twitter</i> paper is available to be downloaded
+          <a href="https://aghenai.github.io/medical_lexicon.html" target="_blank" rel="noopener noreferrer">here</a>.
+        </li>
+        <li>
+          The list of topics along with the keyword queries for the dataset used in the
+          <i>Fake Cures: User-centric Modeling of Health Misinformation in Social Media</i> is available to be downloaded
+          <a href="https://tinyurl.com/y78mkg6s" target="_blank" rel="noopener noreferrer">here</a>.
+        </li>
+      </ul>
+    </section>
+  </main>
 
-<footer class="container-fluid">
-  <p>© Amira Ghenai 2020</p>
-</footer>
+  <footer>
+    <div class="container">
+      <p>© Amira Ghenai 2025</p>
+    </div>
+  </footer>
 
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

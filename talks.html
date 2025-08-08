@@ -1,126 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Amira Ghenai</title>
-   <link rel="shortcut icon" href="assets/images/favicon.ico">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amira Ghenai - Talks</title>
 
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #212529;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0d6efd;
+    }
+
+    .nav-link {
+      font-weight: 600;
+    }
+
+    .nav-link.active {
+      color: #0d6efd !important;
+      border-bottom: 2px solid #0d6efd;
+    }
+
+    .content-section {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      padding: 1rem 0;
+      background-color: #e9ecef;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+  </style>
 </head>
+
 <body>
-
-<div class="container">
-		<div id="banner-wrapper">
-			<div id="banner-picture" class="five columns">
-					<img src="assets/images/profile.jpg" style="width:130px;margin-top:-10px;text-align:left;position:relative;" />
-			</div>
-
-			
-			<div id="banner-info" class="five columns" style="font-weight:bold;margin-left:80px;margin-top:-200px;float:top">
-				<p>
-				<h2><a href="./" style="float:bottom;margin-left:80px;margin-top:20px;float:top;">Amira Ghenai</a></h2>
-					<span style="font-weight:bold;margin-left:80px;margin-top:-20px;float:top">
-						Assistant Professor&nbsp;|&nbsp;<a href="mailto:aghenai@torontomu.ca" class="email">aghenai@torontomu.ca</a>
-					<br/>
-					
-						<h4>
-						<a href="https://www.ryerson.ca/tedrogersschool/" style="float:bottom;margin-left:80px;margin-top:20px;float:top;">Ted Rogers School of Management, TRSM<h4>
-					<a href="https://www.ryerson.ca/">
-						Toronto Metropolitan University
-					</a> 
-					</span >
-				</p>
-				<br>
-				<p>
-							<a
-								href="https://scholar.google.ca/citations?user=7GiUcaEAAAAJ&hl=en" style="float:bottom;margin-left:80px;margin-top:20px;float:top;font-size:70%;"><u>Google
-								Scholar</u></a>
-								|
-							<a
-								href="https://twitter.com/AmiraGhenai" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>Twitter</u></a>	
-								|
-								<a
-								href="https://www.linkedin.com/in/amiraghenai" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>linkedIn</u></a>
-								|
-								<a
-								href="https://aghenai.github.io/assets/amira-cv.pdf" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>CV</u></a>	
-								
-						</p>
-			</div>
-			
-			<!-- <div id="banner-logos" class="five columns">
-				<a href="https://cs.uwaterloo.ca/" id="logo-scs">
-					<img src="assets/images/uwaterloo.jpg" style="width:150px;margin-top:-10px;margin-left:750px;float:top; margin-top:10px" />
-				</a>
-			</div> -->
-
-			
-
-		</div>
-
-<hr />
-
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-   
-    <ul class="nav nav-pills nav-stacked">
-        <li ><a href="index.html">Home</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="data.html">Data</a></li>
-        <li><a href="ta.html">Teaching Experience</a></li>
-         <li><a href="work.html">Work Experience</a></li>
-         <li><a href="honors_awards.html">Honors & Awards</a></li>
-          <li class="active"><a href="talks.html">Talks</a></li>
-         <li><a href="contact.html">Contact</a></li>
-      </ul><br>
-                                     <script type="text/javascript" src="//ra.revolvermaps.com/0/0/2.js?i=0yjvm2lsxlt&amp;m=0&amp;s=130&amp;c=ff0000&amp;t=1" async="async"></script>
-
+  <header class="container py-3 d-flex flex-wrap align-items-center justify-content-between border-bottom bg-white">
+    <div class="d-flex align-items-center">
+      <img src="assets/images/profile.jpg" alt="Amira Ghenai" class="profile-img me-3" />
+      <div>
+        <h1 class="h3 mb-0">Amira Ghenai</h1>
+        <p class="mb-0 text-muted small">Assistant Professor, Ted Rogers School of Management</p>
+        <p class="mb-0 text-muted small">Toronto Metropolitan University</p>
+        <a href="mailto:aghenai@torontomu.ca" class="text-decoration-none">aghenai@torontomu.ca</a>
+      </div>
     </div>
 
-    <div class="col-sm-9">
- 
-      <div class="row">
-  
-    <ul>
-   <!-- <li>Guest Lecture titled ``Fake Cures: User-centric Modeling of Health Misinformation in Social Media'' on the (CS886 Topics in AI: Trust and Online Social Networks) course, University of Waterloo. Canada - October 2018. [<a href="assets/presentation/guest_lecture.pdf">Slides</a>] </li> -->
-	<li>Guest speaker, Women in Data Science Conference 2020, Designing systems to better address the problem of misinformation,Ottawa. March 2020. [<a href="https://aghenai.github.io/assets/presentation/amira_wids_2march_2020.pdf">Slides</a>] </li>
-	
-	<li>PhD Defense, Cheriton School of Computer Science, University of Waterloo. Canada - November 2019. [<a href="https://aghenai.github.io/assets/presentation/PhD_defense_amira.pdf">Slides</a>] </li>
-	
-	<li>PhD Seminar 3 (Cheriton School of Computer Science PhD requirement), University of Waterloo. Canada - October 2019. [<a href="https://aghenai.github.io/assets/presentation/PhD seminar3.pdf">Slides</a>] </li>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+        <li class="nav-item"><a href="data.html" class="nav-link">Data</a></li>
+        <li class="nav-item"><a href="ta.html" class="nav-link">Teaching</a></li>
+        <li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
+        <li class="nav-item"><a href="honors_awards.html" class="nav-link">Honors & Awards</a></li>
+        <li class="nav-item"><a href="talks.html" class="nav-link active">Talks</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-	<li>PhD Seminar 2 (Cheriton School of Computer Science PhD requirement), University of Waterloo. Canada - October 2017. [<a href="https://aghenai.github.io/assets/presentation/PhD seminar2.pdf">Slides</a>] </li>
+  <main class="container my-4">
+    <section class="content-section">
+      <h2 class="mb-4">Talks and Presentations</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <strong>Guest speaker</strong>, Women in Data Science Conference 2020, Designing systems to better address the problem of misinformation,
+          Ottawa. March 2020. [<a href="https://aghenai.github.io/assets/presentation/amira_wids_2march_2020.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>PhD Defense</strong>, Cheriton School of Computer Science, University of Waterloo. Canada - November 2019.
+          [<a href="https://aghenai.github.io/assets/presentation/PhD_defense_amira.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>PhD Seminar 3</strong> (Cheriton School of Computer Science PhD requirement), University of Waterloo. Canada - October 2019.
+          [<a href="https://aghenai.github.io/assets/presentation/PhD seminar3.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>PhD Seminar 2</strong> (Cheriton School of Computer Science PhD requirement), University of Waterloo. Canada - October 2017.
+          [<a href="https://aghenai.github.io/assets/presentation/PhD seminar2.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>PhD research collaboration talk</strong> between Waterloo University and Google, Google, Inc. (Mountain View, CA, USA) - December 2017.
+          [<a href="https://aghenai.github.io/assets/presentation/Google_presentation_Amira_Ghenai.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>PhD Seminar 1</strong> (Cheriton School of Computer Science PhD requirement), University of Waterloo. Canada - September 2017.
+          [<a href="https://aghenai.github.io/assets/presentation/PhD seminar1.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>Doctoral Consortium:</strong> Health Misinformation in search and social media, ACM SIGIR'17 conference, Tokyo, Japan - August 2017.
+          [<a href="https://aghenai.github.io/assets/presentation/DC_SIGIR.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>PhD Track:</strong> Health Misinformation in search and social media, ACM Digital Health'17 conference, London, UK - July 2017.
+          [<a href="https://aghenai.github.io/assets/presentation/amira_ghenai_pdhtalk.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>Zika Misinformation Tracking in Social Media</strong>, Qatar Computing Research Institute, Doha, Qatar - September 2016.
+          [<a href="https://aghenai.github.io/assets/presentation/ppt_presentation_qcri.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>What Makes a Review Useful, Funny or Cool on Yelp.com</strong>, The Second Machine Learning and Data Analytics (MLDAS) Symposium, Doha, Qatar - November 2015.
+          [<a href="https://aghenai.github.io/assets/presentation/AMIRA.GHENAI-MLDAS15.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+        <li class="list-group-item">
+          <strong>Discovering Conditional Functional Dependencies</strong>, University of Waterloo, Canada - March 2015.
+          [<a href="https://aghenai.github.io/assets/presentation/DCFD.pdf" target="_blank" rel="noopener noreferrer">Slides</a>]
+        </li>
+      </ul>
+    </section>
+  </main>
 
-	<li>PhD research collaboration talk between Waterloo university and Google, Google, Inc. (Mountain View, CA, USA) - December 2017. [<a href="https://aghenai.github.io/assets/presentation/Google_presentation_Amira_Ghenai.pdf">Slides</a>] </li>
+  <footer>
+    <div class="container">
+      <p>© Amira Ghenai 2025</p>
+    </div>
+  </footer>
 
-	<li>PhD Seminar 1 (Cheriton School of Computer Science PhD requirement), University of Waterloo. Canada - September 2017. [<a href="https://aghenai.github.io/assets/presentation/PhD seminar1.pdf">Slides</a>] </li>
-
-    <li>Doctoral Consortium: Health Misinformation in search and social media, ACM SIGIR'17 conference, Tokyo. Japan -  August 2017. [<a href="https://aghenai.github.io/assets/presentation/DC_SIGIR.pdf">Slides</a>] </li>
-
-    <li>PhD Track: Health Misinformation in search and social media, ACM Digital Health'17 conference, London. UK - July 2017. [<a href="https://aghenai.github.io/assets/presentation/amira_ghenai_pdhtalk.pdf">Slides</a>] </li>
-
-    <li>Zika Misinformation Tracking in Social Media, Qatar Computing Research Institute, Doha. Qatar - September 2016. [<a href="https://aghenai.github.io/assets/presentation/ppt_presentation_qcri.pdf">Slides</a>]</li>
-    
-    <li>What Makes a Review Usuful, Funny or Cool on Yelp.com, The Second Machine Learning and Data Analytics (MLDAS) Symposium, Doha. Qatar - November 2015. [<a href="https://aghenai.github.io/assets/presentation/AMIRA.GHENAI-MLDAS15.pdf">Slides</a>]</li>
-    
-    <li>Discovering Conditional Functional Dependencies, University of Waterloo. Canada - March 2015. [<a href="https://aghenai.github.io/assets/presentation/DCFD.pdf">Slides</a>]</li>
-    </ul>
-    
-              <br>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-<footer class="container-fluid">
-  <p>© Amira Ghenai 2020</p>
-</footer>
-
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
