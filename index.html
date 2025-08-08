@@ -1,191 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Amira Ghenai</title>
-   <link rel="shortcut icon" href="assets/images/favicon.ico">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css" />
 
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #212529;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0d6efd;
+    }
+
+    .nav-link {
+      font-weight: 600;
+    }
+
+    .nav-link.active {
+      color: #0d6efd !important;
+      border-bottom: 2px solid #0d6efd;
+    }
+
+    .intro-section {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+    }
+
+    .social-icons a {
+      font-size: 1.25rem;
+      margin-right: 1rem;
+      color: #0d6efd;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #0a58ca;
+    }
+
+    footer {
+      padding: 1rem 0;
+      background-color: #e9ecef;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+
+    /* Reduce whitespace under navbar */
+    main {
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+    }
+  </style>
+
+  <!-- Bootstrap Icons CDN for social icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
-<!--<body style="background-image: url('image2.png');">-->
 
-<div class="container">
-		<div id="banner-wrapper">
-			<div id="banner-picture" class="five columns">
-					<img src="assets/images/profile.jpg" style="width:130px;margin-top:-10px;text-align:left;position:relative;" />
-			</div>
-
-			
-			<div id="banner-info" class="five columns" style="font-weight:bold;margin-left:80px;margin-top:-200px;float:top">
-				<p>
-				<h2><a href="./" style="float:bottom;margin-left:80px;margin-top:20px;float:top;">Amira Ghenai</a></h2>
-					<span style="font-weight:bold;margin-left:80px;margin-top:-20px;float:top">
-						Assistant Professor&nbsp;|&nbsp;<a href="mailto:aghenai@torontomu.ca" class="email">aghenai@torontomu.ca</a>
-					<br/>
-					
-						<h4>
-						<a href="https://www.ryerson.ca/tedrogersschool/" style="float:bottom;margin-left:80px;margin-top:20px;float:top;">Ted Rogers School of Management, TRSM<h4>
-					<a href="https://www.ryerson.ca/">
-						Toronto Metropolitan University
-					</a> 
-					</span >
-				</p>
-				<br>
-				<p>
-							<a
-								href="https://scholar.google.ca/citations?user=7GiUcaEAAAAJ&hl=en" style="float:bottom;margin-left:80px;margin-top:20px;float:top;font-size:70%;"><u>Google
-								Scholar</u></a>
-								|
-							<a
-								href="https://twitter.com/AmiraGhenai" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>Twitter</u></a>	
-								|
-								<a
-								href="https://www.linkedin.com/in/amiraghenai" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>linkedIn</u></a>
-								|
-								<a
-								href="https://aghenai.github.io/assets/amira-cv.pdf" style="float:bottom;margin-left:5px;margin-top:20px;float:top;font-size:70%;"><u>CV</u></a>	
-								
-						</p>
-			</div>
-						<!-- 
-			 <div id="banner-logos" class="five columns">
-			<a class="twitter-timeline" href="https://twitter.com/AmiraGhenai">Tweets by AmiraGhenai</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-          <!-- </div> -->
-           
-			<!-- <div id="banner-logos" class="five columns">
-				<a href="https://www.ryerson.ca/tedrogersschool/" id="logo-scs">
-					<img src="assets/images/TRSM_logo.jpeg" style="width:150px;margin-top:-10px;margin-left:750px;float:top; margin-top:10px" />
-				</a>
-			</div> -->
-
-			
-
-		</div>
-		
-
-<hr />
-
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav">
-   
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="publications.html">Publications</a></li>
-         <li><a href="data.html">Data</a></li>
-        <li><a href="ta.html">Teaching Experience</a></li>
-         <li><a href="work.html">Work Experience</a></li>
-         <li><a href="honors_awards.html">Honors & Awards</a></li>
-          <li><a href="talks.html">Talks</a></li>
-         <li><a href="contact.html">Contact</a></li>
-      </ul><br>
-                               <script type="text/javascript" src="//ra.revolvermaps.com/0/0/2.js?i=0yjvm2lsxlt&amp;m=0&amp;s=130&amp;c=ff0000&amp;t=1" async="async"></script>
-
+<body>
+  <header class="container py-3 d-flex flex-wrap align-items-center justify-content-between border-bottom bg-white">
+    <div class="d-flex align-items-center">
+      <img src="assets/images/profile.jpg" alt="Amira Ghenai" class="profile-img me-3" />
+      <div>
+        <h1 class="h3 mb-0">Amira Ghenai</h1>
+        <p class="mb-0 text-muted small">Assistant Professor, Ted Rogers School of Management</p>
+        <p class="mb-0 text-muted small">Toronto Metropolitan University</p>
+        <a href="mailto:aghenai@torontomu.ca" class="text-decoration-none">aghenai@torontomu.ca</a>
+      </div>
     </div>
 
-    <div class="col-sm-9">
- 
-      <div class="row">
-  
-    <p>
-							
-							Dr. Amira Ghenai is an Assistant Professor at <a href="https://www.ryerson.ca/tedrogersschool/"> Ted Rogers School of Information Technology Management</a> at <a href="https://www.ryerson.ca/"> Toronto Metropolitan University</a> and an adjunct assistant professor at the <a href="https://cs.uwaterloo.ca/">David R. Cheriton School of Computer Science</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. Prior to this, she was a Postdoctoral Researcher in the <a href="https://www.mcgill.ca/sis/">School of Information Studies and a member of the  <a href="http://act.mcgill.ca">Accessible Computing Technologies Research Group</a> (ACT Lab) at <a href="https://www.mcgill.ca/">McGill University</a>.
-							<br> <br>
-							Amira completed her PhD of Computer Science at the <a href="https://cs.uwaterloo.ca/">David R. Cheriton School of Computer Science</a>, <a href="https://uwaterloo.ca/">University of Waterloo</a>. She also received a Masters of Computing Sciences in Software Engineering from the <a href="https://www.imperial.ac.uk/">University of Imperial College London</a>.
-							Her research interests include information retrieval, social media analysis, machine learning, misinformation, and accessibility for older adults. More specifically, she is interested in the research question of how search and social media interactions affect the human behavior in health-related decision-making process. Funded by AGEWELL - Canada's technology and aging network, she also worked on addressing the accessibility barriers faced by older adults when exploring the online health-related content.
-							<br> <br>
-							Amira has well-established research track record with notable conference publications (such as ACM CSCW, ACM CHIIR, and ACM ICTIR). She further served as program committee member and reviewer for top-tier conferences and journals (such as JMIR, ACM CSCW, AAAI ICWSM,and ACM WWW).
-							
-								
-								
-								<!-- <a href="single.html" class="more-link">Continue reading&#8230;</a> -->
-						</p>
-						
-						
-				
-					<p>
-					
-					<!--<div class="alert alert-primary" role="alert">
-					 I am also currently on the job market! reach out to me by <a href="mailto:amira.ghenai@mail.mcgill.ca">mail</a>.
-					</div></p>-->
-				
-				<h3>News and Highlights</h3>
-				
-				<ul style="list-style-image: URL(bullet.png); list-style-position: outside; margin: 0 0 0 0px">
-				<li><i>2021.02.24:</i> Our paper titled "E-Health for Older Adults: Navigating Misinformation" has been accepted to be published in the <a href="http://www.ict4ageingwell.org/Home.aspx"> 7th International Conference on Information and Communication Technologies for Ageing Well and e-Health</a> (ICT4AWE).
-				<li><i>2021.01.04:</i> Started a sessional teaching position for the "Introduction to Computer Programming" course at the department of <a href="https://uwaterloo.ca/management-sciences/">Management Sciences</a>, <a href="https://uwaterloo.ca/future-students/discover/engineering?gclid=CNmooJXlr-4CFYCWxQIdsFgE4Q"> Faculty of Engineering</a>, University of Waterloo.
-				<li><i>2020.12.29:</i> Serving as the <b>Accessibility Chair</b> for the 15th International AAAI Conference on Web and Social Media (<a href="https://www.icwsm.org/2021/index.html" >ICWSM 2021</a>).
-				<li><i>2020.12.18:</i> Serving as a reviewer for the <a href="https://journals-sagepub-com.proxy3.library.mcgill.ca/home/bds">Big Data & Society</a>, SAGE Journal. </li>
-				<li><i>2020.11.20:</i> Presented a guest lecture in the GLIS 626 - Usability Analysis & Assessment course at McGill School of Information Studies titled: "Think aloud method for system usability analysis". The lecture is available <a href=https://youtu.be/KKefSIuewhE>here</a>.
-				<li><i>2020.11.12:</i> Our paper titled "Addressing Misinformation in Online Social Networks: Diverse Platforms and the Potential of Multiagent Trust Modeling" has been accepted to be published in the <a href="https://www.mdpi.com/journal/information"> Information</a> journal - Special issues: Tackling Misinformation Online.
-				<li><i>2020.10.05:</i> Serving on the Program Committee for the ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR).</li>
-				<li><i>2020.09.10:</i> Serving as a reviewer for the Journal of Medical Internet Research (JMIR). </li>
-				<li><i>2020.08.13:</i> My talk during the online ACM SIGIR CHIIR Conference about "A Think-Aloud Study about Medical Misinformation in Search Results" is now available online <a href="https://www.youtube.com/watch?v=kf949ZZ-GeE">here</a>.
-				<li><i>2020.08.10:</i> Received the prestigious <b>AGE-WELL Graduate Student and Postdoctoral Award in Technology and Aging </b> [acceptance rate:<font color="red"> <b>15%</b></font>]. </i>
-				<li><i>2020.08.09:</i> Serving as a reviewer for the Journal of Medical Internet Research (JMIR). </li>
-				<li><i>2020.08.05:</i> Serving on the Program Committee for the WebConf 2021 (WWW) - User Modeling, Personalization and Inclusion Research Track.</li>
-				<li><i>2020.03.02:</i> Presenting a talk about "Designing systems to better address the problem of misinformation" at the 
-				Women in Data Science Conference 2020 <a href="https://www.widsottawa.com/">WiDS@Ottawa</a>.
-				<li><i>2020.02.18:</i> Presenting a talk about: "A Think-Aloud Study to Understand Factors Affecting Online Health Search" at the School of Information Studies, McGill University.</i>
-				<li><i>2019.12.15:</i> Our paper: <i> A Think-Aloud Study about Medical Misinformation in Search Results</i> has been accepted to be presented in the <a href="https://sigir.org/chiir2020/">ACM SIGIR CHIIR Conference </a>, 14–18 March, 2020. Vancouver, Canada.
-				<li><i>2019.11.01:</i> Successfully defended my PhD thesis under the title <a href="https://uwspace.uwaterloo.ca/handle/10012/15268"> "Health Misinformation in Search and Social Media".</a>
-				<li><i>2019.06.06:</i> Our workshop paper: <i> A Think-Aloud Study about Medical Misinformation in Search Results</i> has been accepted to be presented in the <a href="https://rome2019.github.io/"> Workshop on Reducing Online Misinformation Exposure - ROME 2019</a> Colocated with <a href="https://sigir.org/sigir2019/">ACM SIGIR 2019</a> conference, July 25, 2019. Paris, France.
-				<li><i>2019.01.17:</i> Serving as a reviewer for the <a href="http://www.acm-digitalhealth.org/"> 
-				ACM Digital Health'19</a>, to be held on April 20-23, 2019 in Marseille, France.</li>
-				<li><i>2018.10.22:</i> Presented a guest lecture in the <a href="https://cs.uwaterloo.ca/~rcohen/cs886-lectures-w16.pdf"> CS886 Topics in AI: Trust and Online Social Networks</a> course taught by Dr. <a href="https://cs.uwaterloo.ca/~rcohen/" >Robin Cohen</a> in Waterloo University.
-				<li><i>2018.08.09:</i> Our paper <i> Fake Cures: User-centric Modeling of Health Misinformation in Social Media</i> has been accepted to be presented in the <a href="https://cscw.acm.org/2018/"> ACM CSCW'18 </a> conference, November 3rd-7th, 2018 New York City's Hudson River (Jersey City).
-				<li><i>2018.04.07:</i> Our research about health misinformation in search engines has been picked up and published in <b>CBC NEWS</b>. Check out the full article <a href="http://www.cbc.ca/news/health/second-opinion-online-medical180407-1.4608410">here</a>.</li>
-				<li><i>2018.04.05:</i> <b>Global News - Edmonton</b> interviewed me about the recent research my colleagues conducted on health misinformation in search results. Check out the broadcast <a href="https://globalnews.ca/video/rd/1203934275527/">here</a>.</li>
-				<li><i>2018.03.28:</i> "Cheriton School of Computer Science" published an <a href="https://uwaterloo.ca/computer-science/news/search-results-influence-peoples-decisions-about-treatment">article </a>about the work my colleagues and I conducted on health misinformation in search results. </li>
-				<li><i>2018.02.01:</i> Started an exciting internship opportunity as a <b> data scientist</b> @ <a href="https://innovation.thomsonreuters.com/en/labs.html"> Thomson Reuters Labs</a>, Waterloo. Canada </li>.
-				<li><i>2018.01.01:</i> Serving as a review for the <a href="http://www.acm-digitalhealth.org/"> 
-				ACM Digital Health'18</a> to be held on April 23-26, 2018 in Lyon, France.</li></li>
-				<li><i>2017.12.06:</i> Presented my PhD research during a research collaboration meeting between Google, Inc. (Mountain View, CA, USA) & the University of Waterloo. </li>
-				<li><i>2017.11.24:</i> Successfully passed the Cheriton School of Computer Science <a href = "https://cs.uwaterloo.ca/current-graduate-students/overview-degree-programs/phd-computer-science/phd-comprehensive-ii-depth"> Comprehensive Examination II</a>. Now, I am officially a PhD candidate! </li>
-				<li><i>2017.08.09:</i> Serving as a reviewer for the "Journalism, Misinformation and Fact Checking" alternate track at the 27th <a href="https://www2018.thewebconf.org/"> World Wide Web </a>Conference (WWW), to be held on April 23-27, 2018 in Lyon, 
-				France </li>
-				
-				<li><i>2017.06.27:</i> Our paper <i>Catching Zika Fever: Application of Crowdsourcing and Machine Learning for Tracking Health Misinformation on Twitter</i> has been accepted to be presented in the <a href="http://dml.cs.byu.edu/chs/ichi2017/"> IEEE ICHI'17 </a> conference, 23-26 August 2017. Utah, USA
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+        <li class="nav-item"><a href="data.html" class="nav-link">Data</a></li>
+        <li class="nav-item"><a href="ta.html" class="nav-link">Teaching</a></li>
+        <li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
+        <li class="nav-item"><a href="honors_awards.html" class="nav-link">Honors & Awards</a></li>
+        <li class="nav-item"><a href="talks.html" class="nav-link">Talks</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-				<li><i>2017.06.09:</i> Our paper <i>The Positive and Negative Influence of Search Results on People's Decisions about the Efficacy of Medical Treatments</i> has been accepted to be presented in the <a href="http://sigir.org/ictir2017/"> ACM ICTIR'17 </a> conference, 1-4 October 2017. Amsterdam.
+  <main class="container my-4">
+    <section class="intro-section">
+      <p>
+        Dr. Amira Ghenai is an Assistant Professor at the
+        <a href="https://www.ryerson.ca/tedrogersschool/" target="_blank" rel="noopener noreferrer">Ted Rogers School of
+          Information Technology Management</a> at
+        <a href="https://www.ryerson.ca/" target="_blank" rel="noopener noreferrer">Toronto Metropolitan University</a> and an
+        adjunct assistant professor at the
+        <a href="https://cs.uwaterloo.ca/" target="_blank" rel="noopener noreferrer">David R. Cheriton School of Computer
+          Science</a> at the
+        <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>. Prior to this, she
+        was a Postdoctoral Researcher in the
+        <a href="https://www.mcgill.ca/sis/" target="_blank" rel="noopener noreferrer">School of Information Studies</a> and a
+        member of the
+        <a href="http://act.mcgill.ca" target="_blank" rel="noopener noreferrer">Accessible Computing Technologies Research Group (ACT
+          Lab)</a> at
+        <a href="https://www.mcgill.ca/" target="_blank" rel="noopener noreferrer">McGill University</a>.
+      </p>
+      <p>
+        Amira completed her PhD of Computer Science at the
+        <a href="https://cs.uwaterloo.ca/" target="_blank" rel="noopener noreferrer">David R. Cheriton School of Computer Science</a>,
+        <a href="https://uwaterloo.ca/" target="_blank" rel="noopener noreferrer">University of Waterloo</a>. She also received a Masters
+        of Computing Sciences in Software Engineering from the
+        <a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer">University of Imperial College London</a>. Her
+        research interests include information retrieval, social media analysis, machine learning, misinformation, and
+        accessibility for older adults.
+      </p>
+      <p>
+        Funded by AGE-WELL - Canada's technology and aging network, she also worked on addressing the accessibility barriers
+        faced by older adults when exploring online health-related content.
+      </p>
+      <p>
+        Amira has a well-established research track record with notable conference publications (ACM CSCW, ACM CHIIR, ACM ICTIR),
+        and serves as a program committee member and reviewer for top-tier conferences and journals (JMIR, ACM CSCW, AAAI ICWSM,
+        ACM WWW).
+      </p>
 
-				<li><i>2017.04.11:</i> My Doctoral Consortium about <i>Health misinformation in search and social media</i> has been accepted to be presented in the <a href="http://sigir.org/sigir2017/"> SIGIR'17 </a> conference, 7-11 August. Tokyo. Japan
-
-				<li><i>2017.04.06:</i> My PhD track paper has been accepted to be published in the <a href="http://www.acm-digitalhealth.org/"> ACM Digital Health'17 </a> conference, 2-5 July. London. UK
-				
-				<li><i>2017.03.22:</i> Completed the requirements for the 
-				 <a href="https://uwaterloo.ca/centre-for-teaching-excellence/support-graduate-students/fundamentals-university-teaching-program"> Fundamentals of University Teaching Certificate</a>.</li>
-				
-				<li><i>2017.03.16:</i> Selected to participate in the <a href="http://summerschool.computationalsocialscience.eu/">
-				Summer School Series on Methods for Computational Social Science</a>. Sardinia, Italy. [Acceptance rate:<font color="red"> <b>32%</b></font>]</li>
-				
-			    <li><i>2017.03.01:</i> Serving as a reviewer for the <a href="http://www.acm-digitalhealth.org/committee/"> 
-				ACM Digital Health'17</a>. </li>
-				
-				<!--<li><i>2017.01.05:</i> Hold an instructional apprentice (IA) position for the <a href="https://www.student.cs.uwaterloo.ca/~cs116/"> 
-				cs116 </a> course. </li> -->
-				
-				</ul>			
-              <br>
-              <br>
-                                		<!-- <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?u=mo4b&d=UsjKxXx7rq0EtEIgCGda_X-RcCiHepUnqlT1W8DPZJE"></script>
-               -->
-            </div>
-          </div>
-          
-        </div>
-        
-        
+      <div class="mt-3">
+        <a href="assets/amira-cv.pdf" target="_blank" class="btn btn-primary me-2">Download CV</a>
+        <a href="mailto:aghenai@torontomu.ca" class="btn btn-outline-primary">Contact Me</a>
       </div>
+    </section>
 
+    <section class="news mt-5">
+      <h2>News and Highlights</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item py-2">
+          <strong>2021.02.24:</strong> Paper titled
+          <em>"E-Health for Older Adults: Navigating Misinformation"</em> accepted at ICT4AWE.
+        </li>
+        <li class="list-group-item py-2">
+          <strong>2021.01.04:</strong> Started sessional teaching position for
+          <em>"Introduction to Computer Programming"</em> course, University of Waterloo.
+        </li>
+        <li class="list-group-item py-2">
+          <strong>2020.12.29:</strong> Accessibility Chair for the 15th International AAAI Conference on Web and Social Media (ICWSM
+          2021).
+        </li>
+        <li class="list-group-item py-2">
+          <strong>2020.08.13:</strong> Talk on "A Think-Aloud Study about Medical Misinformation in Search Results" available online
+          <a href="https://www.youtube.com/watch?v=kf949ZZ-GeE" target="_blank" rel="noopener noreferrer">here</a>.
+        </li>
+        <li class="list-group-item py-2">
+          <strong>2019.11.01:</strong> Successfully defended PhD thesis titled
+          <em>"Health Misinformation in Search and Social Media"</em>.
+        </li>
+      </ul>
+    </section>
+  </main>
 
-<footer class="container-fluid">
-  <p>© Amira Ghenai 2020</p>
-</footer>
+  <footer>
+    <div class="container">
+      <p>© Amira Ghenai 2025</p>
+    </div>
+  </footer>
 
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
