@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Amira Ghenai - Student Supervision</title>
+  <title>Amira Ghenai - Research Lab</title>
 
   <!-- Bootstrap 5 CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -49,16 +49,20 @@
       color: #6c757d;
     }
 
-    ul {
-      list-style-type: disc;
-      padding-left: 1.5rem;
+    .student-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #0d6efd;
+      margin: 1rem auto 0;
+      display: block;
     }
 
-    li {
-      margin-bottom: 1rem;
+    .student-card {
+      text-align: center;
     }
   </style>
-
 </head>
 
 <body>
@@ -79,7 +83,7 @@
         <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
         <li class="nav-item"><a href="data.html" class="nav-link">Data</a></li>
         <li class="nav-item"><a href="ta.html" class="nav-link">Teaching</a></li>
-        <li class="nav-item"><a href="work.html" class="nav-link active">Students</a></li>
+        <li class="nav-item"><a href="work.html" class="nav-link active">Research Lab</a></li>
         <li class="nav-item"><a href="honors_awards.html" class="nav-link">Honors & Awards</a></li>
         <li class="nav-item"><a href="talks.html" class="nav-link">Talks</a></li>
         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
@@ -89,123 +93,263 @@
 
   <main class="container my-4">
     <section class="content-section">
-      <h2 class="mb-4">Student Supervision</h2>
+      <h2>The Inclusive Information Systems Lab (IIS Lab)</h2>
+      <p> 
+        The IIS Lab is dedicated to advancing research at the intersection of information systems, social media analytics, and accessibility.
+        We investigate how misinformation spreads across online platforms and develop innovative solutions to mitigate its impact,
+        especially for vulnerable populations such as older adults and neurodiverse individuals. Our research combines data science,
+        human-computer interaction, and inclusive design principles to create technology that empowers all users to access, understand,
+        and trust online information.
+      </p>
+      <p>
+        Our lab fosters a collaborative, multidisciplinary environment where graduate and undergraduate students work on projects ranging from hate speech detection,
+        misinformation propagation, to developing assistive technologies that enhance digital accessibility and inclusion.
+        We are committed to translating our research into real-world applications that promote equity, accessibility, and social good.
+      </p>
 
-      <h3>Current Graduate Students</h3>
-      <ul>
-       <li><strong>Muhammad Maqsud Hussain</strong>, MSc Data Science and Analytics, TMU (Jun 2025 – Sep 2025)<br />
-          Research: Misinformation propagation during the 2024 US presidential elections<br />
-          <em>Status:</em> Active
-        </li>
+      <h3 class="mt-4">Graduate Students</h3>
+      <div class="row row-cols-1 row-cols-md-4 g-3">
 
-        <li><strong>Hunter Shiells</strong>, MSc Management, TMU (Sep 2024 – Present)<br />
-          Research: Webmoti-Employ: job interview assistant system for neuro-divergent people<br />
-          <em>Status:</em> Active
-        </li>
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/hunter.jpeg" alt="Hunter Shiells" />
+            <div class="card-body">
+              <h5 class="card-title">Hunter Shiells</h5>
+              <p><strong>Program:</strong> MSc Management, TMU</p>
+              <p><strong>Research:</strong> Webmoti-Employ: job interview assistant system for neuro-divergent people</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/omar.svg" alt="Omar Ahmed" />
+            <div class="card-body">
+              <h5 class="card-title">Omar Ahmed</h5>
+              <p><strong>Program:</strong> MSc Management, TMU</p>
+              <p><strong>Research:</strong> Hate speech spread in social media platforms</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/shakiba.jpeg" alt="Shakiba Amirshahi" />
+            <div class="card-body">
+              <h5 class="card-title">Shakiba Amirshahi</h5>
+              <p><strong>Program:</strong> MSc Computer Science, University of Waterloo</p>
+              <p><strong>Research:</strong> Detecting and quantifying harmful biases in content generated by LLMs</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
         
-         <li><strong>Omar Ahmed</strong>, MSc Management, TMU (Sep 2024 – Present)<br />
-          Research: Hate speech spread in social media platforms<br />
-          <em>Status:</em> Active
-        </li>
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/pepper.jpeg" alt="Xiaoning Wang" />
+            <div class="card-body">
+              <h5 class="card-title">Xiaoning Wang</h5>
+              <p><strong>Program:</strong> PhD in Information Studies, McGill University</p>
+              <p><strong>Research:</strong> Online Misinformation and Older Adults</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
 
- 		<li><strong>Shakiba Amirshahi</strong>, MSc Computer Science, University of Waterloo (Sep 2024 – Present)<br />
-          Research: Detecting and quantifying harmful biases in content generated by LLMs<br />
-          <em>Status:</em> Active
-        </li>
-
-        <li><strong>Pariya Abadeh</strong>, MSc Computer Science, University of Guelph (Sep 2023 – Present)<br />
-          Research: Relationship between Mental Health and Music<br />
-          <em>Status:</em> Active
-        </li>
-
-        <li><strong>Xiaoning Wang</strong>, MSc Information Studies, McGill University (May 2023 – 2025)<br />
-          Research: Online Misinformation and Older Adults<br />
-          <em>Status:</em> Active
-        </li>
-
-
-        <!-- Add more graduated students here if needed -->
-      </ul>
-
-      <h3>Graduated Students</h3>
-      <ul>
-      
-       <li><strong>Shazra Asmy</strong>, Ted Rogers School of Management, TMU (Jun 2023 – 2025)<br />
-          Research: WebMoti: Supporting Virtual Students in Hybrid Classes<br />
-          <em>Status:</em> Graduated<br />
-        <em>Current role:</em> Graduate Research Assistant, Toronto Metropolitan University
-
-        </li>
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/parya.jpeg" alt="Pariya Abadeh" />
+            <div class="card-body">
+              <h5 class="card-title">Pariya Abadeh</h5>
+              <p><strong>Program:</strong> MSc Computer Science, University of Guelph</p>
+              <p><strong>Research:</strong> Relationship between Mental Health and Music</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
         
-         <li><strong>Gurjyot Singh Anand</strong>, MSc Data Science and Analytics, TMU (Jan 2022 – Sep 2023)<br />
-          Research: Credit Card Fraud Detection using Machine Learning<br />
-          <em>Status:</em> Graduated<br />
-          <em>Current role:</em> Cloud-focused Senior DevOps Engineer at Microsoft, Toronto, Ontario, Canada
-        </li>
-        
-       <li><strong>Maria Tippler</strong>, MSc Information Studies, McGill University (Sep 2020 – Aug 2021)<br />
-          Research: COVID-19 misinformation and older adults<br />
-          <em>Status:</em> Graduated<br />
-          <em>Current role:</em> User Assistance Developer Specialist @ SAP — Technical writing, prompt engineering, & data science
-        </li>
-        
-        <!-- Add more current graduate students here if needed -->
-      </ul>
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/muhammad.jpeg" alt="Muhammad Maqsud Hussain" />
+            <div class="card-body">
+              <h5 class="card-title">Muhammad Maqsud Hussain</h5>
+              <p><strong>Program:</strong> MSc Data Science and Analytics, TMU</p>
+              <p><strong>Research:</strong> Misinformation propagation during the 2024 US presidential elections</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
 
-      <h3>Current Undergraduate and Internship Students</h3>
-      <ul>
-        <li><strong>Nour Labidi</strong>, Mitacs Globalink Research Intern (Summer 2025)<br />
-          Research: Conspiracy theories spread in Bluesky<br />
-          <em>Status:</em> Active
-        </li>
+        <!-- Add more graduate students here -->
 
-        <li><strong>Brianna Chiguichno</strong>, Career Boost Program (Summer 2025)<br />
-          Research: Using eye tracking to determine older adult’s online health-related search<br />
-          <em>Status:</em> Active
-        </li>
+      </div>
 
-        <li><strong>Daniel Boxer</strong>, Career Boost Program (Summer 2025)<br />
-          Research: Telepresence Control for Neurodivergent Learners<br />
-          <em>Status:</em> Active
-        </li>
+      <h3 class="mt-5">Graduated Students</h3>
+      <div class="row row-cols-1 row-cols-md-4 g-3">
 
-        <li><strong>Zil Pavdighada</strong>, Career Boost Program (Summer 2025)<br />
-          Research: Using eye tracking to determine older adult’s online health-related search<br />
-          <em>Status:</em> Active
-        </li>
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/shazra.jpeg" alt="Shazra Asmy" />
+            <div class="card-body">
+              <h5 class="card-title">Shazra Asmy</h5>
+              <p><strong>Program:</strong> Ted Rogers School of Management, TMU</p>
+              <p><strong>Research:</strong> WebMoti: Supporting Virtual Students in Hybrid Classes</p>
+              <p><em>Status:</em> Graduated</p>
+              <p><strong>Current role:</strong> Graduate Research Assistant, Toronto Metropolitan University</p>
+            </div>
+          </div>
+        </div>
 
-        <li><strong>Marija Simic</strong>, Undergraduate Research Assistantship (Fall-Winter 2024)<br />
-          Research: Using eye tracking to determine older adult’s online health-related search<br />
-          <em>Status:</em> Active<br />
-          <em>Current role:</em> MASc Student in Biomedical Engineering, Toronto Metropolitan University
-        </li>
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/omar.svg" alt="Gurjyot Singh Anand" />
+            <div class="card-body">
+              <h5 class="card-title">Gurjyot Singh Anand</h5>
+              <p><strong>Program:</strong> MSc Data Science and Analytics, TMU</p>
+              <p><strong>Research:</strong> Credit Card Fraud Detection using Machine Learning</p>
+              <p><em>Status:</em> Graduated</p>
+              <p><strong>Current role:</strong> Cloud-focused Senior DevOps Engineer at Microsoft, Toronto, Ontario, Canada</p>
+            </div>
+          </div>
+        </div>
 
-        <li><strong>Keshav Nath</strong>, Mitacs Globalink Research Internship (Summer 2023)<br />
-          Research: The impact of hate speech on online human behavior (GAB platform)<br />
-          <em>Status:</em> Internship completed<br />
-          <em>Current role:</em> Master of Computing (MComp) student, National University of Singapore (GPA: 4.97)
-        </li>
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/maria.jpg" alt="Maria Tippler" />
+            <div class="card-body">
+              <h5 class="card-title">Maria Tippler</h5>
+              <p><strong>Program:</strong> MSc Information Studies, McGill University</p>
+              <p><strong>Research:</strong> COVID-19 misinformation and older adults</p>
+              <p><em>Status:</em> Graduated</p>
+              <p><strong>Current role:</strong> User Assistance Developer Specialist @ SAP</p>
+            </div>
+          </div>
+        </div>
 
-        <li><strong>Sivaprasath Subramanian</strong>, Mitacs Globalink Research Internship (Summer 2023)<br />
-          Research: Analyzing user-generated YouTube videos to understand ageing, old age and older adults<br />
-          <em>Status:</em> Internship completed<br />
-          <em>Current role:</em> Business Development Assistant Manager, Tube Investments of India Limited
-        </li>
+        <!-- Add more graduated students here -->
 
-        <li><strong>Saksham Thareja</strong>, Mitacs Globalink Research Internship (Summer 2022)<br />
-          Research: Analyzing user-generated videos: Images of older adults in YouTube<br />
-          <em>Status:</em> Internship completed<br />
-          <em>Current role:</em> Business Analyst at Orangewood Labs - YC W18
-        </li>
+      </div>
 
-        <li><strong>Aarat Satsangi</strong>, Mitacs Globalink Research Internship (Summer 2022)<br />
-          Research: Analyzing user-generated YouTube videos to understand ageing, old age and older adults<br />
-          <em>Status:</em> Internship completed<br />
-          <em>Current role:</em> Ph.D. student in Computer Science, University of Western Ontario (2024 - Present)
-        </li>
+      <h3 class="mt-5">Undergraduate & Internship Students</h3>
+      <div class="row row-cols-1 row-cols-md-4 g-3">
 
-        <!-- Add more undergraduates/interns here if needed -->
-      </ul>
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/nour.jpeg" alt="Nour Labidi" />
+            <div class="card-body">
+              <h5 class="card-title">Nour Labidi</h5>
+              <p><strong>Program:</strong> Mitacs Globalink Research Intern</p>
+              <p><strong>Research:</strong> Conspiracy theories spread in Bluesky</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/brianna.webp" alt="Brianna Chiguichno" />
+            <div class="card-body">
+              <h5 class="card-title">Brianna Chiguichno</h5>
+              <p><strong>Program:</strong> Career Boost Program</p>
+              <p><strong>Research:</strong> Using eye tracking to determine older adult’s online health-related search</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/omar.svg" alt="Daniel Boxer" />
+            <div class="card-body">
+              <h5 class="card-title">Daniel Boxer</h5>
+              <p><strong>Program:</strong> Career Boost Program</p>
+              <p><strong>Research:</strong> Telepresence Control for Neurodivergent Learners</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card student-card h-100">
+            <img src="assets/images/students/zil.jpeg" alt="Zil Pavdighada" />
+            <div class="card-body">
+              <h5 class="card-title">Zil Pavdighada</h5>
+              <p><strong>Program:</strong> Career Boost Program</p>
+              <p><strong>Research:</strong> Using eye tracking to determine older adult’s online health-related search</p>
+              <p><em>Status:</em> Active</p>
+            </div>
+          </div>
+        </div>
+
+		<div class="col">
+    <div class="card student-card h-100">
+      <img src="assets/images/students/marija.jpeg" alt="Marija Simic" />
+      <div class="card-body">
+        <h5 class="card-title">Marija Simic</h5>
+        <p><strong>Program:</strong> Undergraduate Research Assistantship (Fall-Winter 2024)</p>
+        <p><strong>Research:</strong> Using eye tracking to determine older adult’s online health-related search</p>
+        <p><em>Status:</em> Internship completed</p>
+        <p><strong>Current role:</strong> MASc Student in Biomedical Engineering, Toronto Metropolitan University</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card student-card h-100">
+      <img src="assets/images/students/keshav.jpeg" alt="Keshav Nath" />
+      <div class="card-body">
+        <h5 class="card-title">Keshav Nath</h5>
+        <p><strong>Program:</strong> Mitacs Globalink Research Internship (Summer 2023)</p>
+        <p><strong>Research:</strong> The impact of hate speech on online human behavior (GAB platform)</p>
+        <p><em>Status:</em> Internship completed</p>
+        <p><strong>Current role:</strong> Master of Computing (MComp) student, National University of Singapore (GPA: 4.97)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card student-card h-100">
+      <img src="assets/images/students/omar.svg" alt="Sivaprasath Subramanian" />
+      <div class="card-body">
+        <h5 class="card-title">Sivaprasath Subramanian</h5>
+        <p><strong>Program:</strong> Mitacs Globalink Research Internship (Summer 2023)</p>
+        <p><strong>Research:</strong> Analyzing user-generated YouTube videos to understand ageing, old age and older adults</p>
+        <p><em>Status:</em> Internship completed</p>
+        <p><strong>Current role:</strong> Business Development Assistant Manager, Tube Investments of India Limited</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card student-card h-100">
+      <img src="assets/images/students/omar.svg" alt="Saksham Thareja" />
+      <div class="card-body">
+        <h5 class="card-title">Saksham Thareja</h5>
+        <p><strong>Program:</strong> Mitacs Globalink Research Internship (Summer 2022)</p>
+        <p><strong>Research:</strong> Analyzing user-generated videos: Images of older adults in YouTube</p>
+        <p><em>Status:</em> Internship completed</p>
+        <p><strong>Current role:</strong> Business Analyst at Orangewood Labs - YC W18</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card student-card h-100">
+      <img src="assets/images/students/aarat.jpeg" alt="Aarat Satsangi" />
+      <div class="card-body">
+        <h5 class="card-title">Aarat Satsangi</h5>
+        <p><strong>Program:</strong> Mitacs Globalink Research Internship (Summer 2022)</p>
+        <p><strong>Research:</strong> Analyzing user-generated YouTube videos to understand ageing, old age and older adults</p>
+        <p><em>Status:</em> Internship completed</p>
+        <p><strong>Current role:</strong> Ph.D. student in Computer Science, University of Western Ontario (2024 - Present)</p>
+      </div>
+    </div>
+  </div>
+        <!-- Add more undergrad/intern students here -->
+
+      </div>
 
     </section>
   </main>
